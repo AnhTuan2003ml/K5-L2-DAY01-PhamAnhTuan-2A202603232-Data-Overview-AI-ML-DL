@@ -25,7 +25,8 @@ Bài thực hành sử dụng ba checkpoint YOLO11 để phân tích kết quả
 
 ## 1. Phân loại ảnh
 
-**Dữ liệu:** `day1_lab_outputs/classification_predictions.json`, `day1_lab_outputs/visuals/classification_top5.png`.  
+**Dữ liệu:** [`classification_predictions.json`](day1_lab_outputs/classification_predictions.json) và [`classification_top5.png`](day1_lab_outputs/visuals/classification_top5.png).
+
 **Ảnh phân tích:** `sample_id = traffic`, kết quả xếp hạng 1.
 
 **1. Record hạng 1**
@@ -58,7 +59,8 @@ Score `0.510915` biểu thị mức tin cậy của mô hình đối với lớp
 
 ## 2. Phát hiện vật thể
 
-**Dữ liệu:** `day1_lab_outputs/detection_predictions.json`, `day1_lab_outputs/visuals/detection_predictions.png`.  
+**Dữ liệu:** [`detection_predictions.json`](day1_lab_outputs/detection_predictions.json) và [`detection_predictions.png`](day1_lab_outputs/visuals/detection_predictions.png).
+
 **Ảnh phân tích:** `sample_id = kitchen`.
 
 **1. Record được chọn**
@@ -96,7 +98,8 @@ Mỗi vật thể thuộc phạm vi gán nhãn được bao bằng một hình c
 
 ## 3. Phân đoạn theo từng đối tượng
 
-**Dữ liệu:** `day1_lab_outputs/segmentation_predictions.json`, `day1_lab_outputs/visuals/segmentation_prediction.png`.  
+**Dữ liệu:** [`segmentation_predictions.json`](day1_lab_outputs/segmentation_predictions.json) và [`segmentation_prediction.png`](day1_lab_outputs/visuals/segmentation_prediction.png).
+  
 **Ảnh phân tích:** `sample_id = kitchen`.
 
 **1. Record được chọn**
